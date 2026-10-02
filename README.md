@@ -36,6 +36,10 @@ Mining operations and trade execution remain separate products with distinct acc
 
 Aetheria Music is a sibling domain of Aetheria Studio; it is not another component inside the Studio.
 
+[![RACK mastering workspace](assets/screenshots/rack-mastering.png)](projects/master-rack.md)
+
+*RACK: an editable mastering chain with club/streaming targets and input/output meters. [View the project](projects/master-rack.md).*
+
 ## Engineering approach
 
 Clear interfaces, traceable evidence, reviewable automation and honest development boundaries connect this work. The product families do not require one codebase, a shared runtime or unrestricted access to data across products.

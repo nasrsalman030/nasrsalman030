@@ -6,6 +6,14 @@
 
 [Back to the portfolio](../README.md)
 
+## Mastering workspace
+
+![RACK mastering session: modular signal chain, club target and loudness meters](../assets/screenshots/rack-mastering.png)
+
+The captured session shows the mono-low → EQ → drive → trim → limiter chain, a club target of −8 LUFS / −0.3 dBTP, and displayed input/output loudness of −6.7 / −8.0 LUFS-I. Processing controls remain editable, and WAV, FLAC and MP3 export options are visible.
+
+*User-provided application capture, 2 October 2026. These are displayed session measurements, not an independent audio-quality or performance evaluation. No audio is distributed.*
+
 ## The idea
 
 Mastering tools should make important processing decisions understandable and editable. Master, documented under the working name RACK, starts with manual digital signal processing rather than treating AI as a prerequisite for a useful product.
