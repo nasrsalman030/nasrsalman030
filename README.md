@@ -28,7 +28,9 @@ Mining operations and trade execution remain separate products with distinct acc
 
 ### Studio
 
-**[Aetheria Studio](projects/aetheria-studio.md)** is one self-contained website-creation system. Its workspace, generator, processing pipeline and internal tools are components of that product—not separate portfolio products.
+**[Aetheria Studio](projects/aetheria-studio.md)** is a flagship self-contained website-creation system. Its Next.js workspace brings **Clone, Composer, Wizard and Workbench** into one product while coordinating a generation engine, Python processing/knowledge pipeline and inference services through explicit contracts. **Media Forge** remains in active development.
+
+The workspace, generator and pipeline are technical components of Aetheria Studio—not separate portfolio products.
 
 ### Music
 
