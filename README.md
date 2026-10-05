@@ -4,7 +4,7 @@
 
 I develop software for professional workflows, operational decisions and creative production. My projects sit in two complementary families: **Matheria** for work and operations, and **Aetheria** for creation and expression.
 
-![Matheria covers Office and Finance. Aetheria covers Studio and Music.](assets/diagrams/product-families.svg)
+<img src="assets/diagrams/product-families.svg" width="100%" alt="Matheria covers Office and Finance. Aetheria covers Studio and Music.">
 
 ## Matheria
 
