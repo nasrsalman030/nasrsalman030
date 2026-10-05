@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="680" viewBox="0 0 720 680" role="img" aria-labelledby="title desc">
+<title id="title">Aetheria Studio product and component map</title><desc id="desc">One Studio product: Clone, Composer and Wizard creation; Workbench knowledge and evaluation; Social and Sentinel observation; Media Forge development. Workspace, generator, Python pipeline and inference services have distinct responsibilities.</desc>
+<rect width="720" height="680" rx="20" fill="#101a26"/>
+<text x="32" y="51" fill="#accaff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">AETHERIA STUDIO</text>
+<text x="32" y="95" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">One creative workspace</text>
+<rect x="32" y="126" width="656" height="104" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="142" width="4" height="72" rx="2" fill="#accaff"/>
+<text x="56" y="165" fill="#accaff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Creation</text>
+<text x="56" y="203" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Clone · Composer · Wizard</text>
+<rect x="32" y="248" width="656" height="104" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="264" width="4" height="72" rx="2" fill="#accaff"/>
+<text x="56" y="287" fill="#accaff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Knowledge and observation</text>
+<text x="56" y="325" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Workbench · Social / Sentinel</text>
+<rect x="32" y="370" width="656" height="104" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="386" width="4" height="72" rx="2" fill="#accaff"/>
+<text x="56" y="409" fill="#accaff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Active build track</text>
+<text x="56" y="447" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Media Forge</text>
+<path d="M360 483 v20 m-7 -7 l7 7 l7 -7" fill="none" stroke="#c1cdd9" stroke-width="2"/>
+<rect x="32" y="514" width="656" height="132" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="530" width="4" height="100" rx="2" fill="#accaff"/>
+<text x="56" y="553" fill="#accaff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Technical components</text>
+<text x="56" y="591" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Workspace · generator · Python pipeline</text>
+<text x="56" y="625" fill="#c1cdd9" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Inference services + explicit contracts</text>
+</svg>

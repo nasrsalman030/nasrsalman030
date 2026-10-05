@@ -1,136 +1,42 @@
 # Aetheria Studio
 
-**Product family:** Aetheria · **Domain:** Studio · **Role:** flagship creative system
+**Aetheria · Studio · Website creation and creative workflows**
 
-**A modular AI-assisted website-creation workspace that brings reference cloning, composition, brief-driven generation and design-learning workflows into one product.**
+Aetheria Studio is an AI-assisted workspace for creating and refining websites. Clone, Composer and Wizard share reusable template contracts; Workbench provides the knowledge and evaluation workspace. Social / Sentinel adds source observation and evidence review within the same Studio environment.
 
-[Back to the portfolio](../README.md)
+[Portfolio](../README.md) · [Music: Master / RACK](master-rack.md)
 
-## At a glance
+![Aetheria Studio has six workflow areas supported by workspace orchestration, a generator, a Python pipeline and inference services.](../assets/diagrams/studio-system.svg)
 
-Aetheria Studio is designed as one self-contained product rather than a collection of disconnected demos. The Studio workspace coordinates specialized components for website generation, extraction/knowledge processing and inference while keeping their responsibilities explicit.
+*Product and component map, not an application screenshot.*
 
-The current repository documentation describes four substantial user-facing workflows and one active build track:
+## Workflows and status
 
-| Workflow | Purpose | Documented status |
+| Workflow | What it provides | Documented status |
 | --- | --- | --- |
-| **Clone** | Turn a reference into an editable website starting point | Built |
-| **Composer** | Combine and refine sections, styling, motion and multi-page compositions | Built |
-| **Wizard** | Turn a structured brief into a generated page | Built, v1 |
-| **Workbench** | Operate enrichment and training/evaluation workflows | Built, phase 1 |
-| **Media Forge** | Scan, generate, guard and integrate media assets | In development |
+| **Clone** | Reference capture and an editable website starting point | Implemented |
+| **Composer** | Section assembly, styles, motion, multi-page composition and refinement | Implemented |
+| **Wizard** | Structured brief to generated page using the shared template contract | Implemented, v1 |
+| **Workbench** | Enrichment controls, source management, corpus visibility and evaluation workflows | Implemented core; training remains research |
+| **Social / Sentinel** | Channel continuity, feed observation, activity and evidence-review views | Implemented local workflows; live access and claim coverage vary by source |
+| **Media Forge** | Media scanning, generation, guarding and integration workers | In development; complete routing remains open |
 
-These statuses summarize the private project documentation; they are not a fresh production certification.
+## One product, explicit components
 
-## How the system is shaped
+The **Next.js workspace** owns navigation, user interaction and orchestration. The **generator** handles website generation. The **Python pipeline** handles extraction, knowledge, evaluation and supporting workflows. Inference services are integrated through explicit service boundaries.
 
-```mermaid
-flowchart LR
-    U["Aetheria Studio<br/>Next.js workspace"]
+These technical repositories form one Studio product. Health-aware interfaces show unavailable services and reviewable outputs rather than hiding failures.
 
-    C["Clone"]
-    O["Composer"]
-    W["Wizard"]
-    B["Workbench"]
-    F["Media Forge<br/>(in development)"]
+## Recent engineering evidence
 
-    G["Generator<br/>website generation"]
-    P["Python pipeline<br/>extraction · knowledge · evaluation"]
-    I["Inference services<br/>local / remote"]
-    T["Shared template & artifact contracts"]
+The **6 September 2026 Studio record** reports 371 specification files and 4,255 tests passing, clean lint / type checks and a successful production build.
 
-    U --> C
-    U --> O
-    U --> W
-    U --> B
-    U --> F
+The **4 October 2026 local Social / Sentinel rollout record** reports clean lint / type checks, **4,576 tests passing and one skipped**, a successful production build, and responsive fixture / deployed-browser checks. This later evidence concerns local development; it does not establish that every change is included in the GitHub source snapshot.
 
-    C --> T
-    O --> T
-    W --> T
+Recent work preserves channel-switch state and observers, distinguishes failed extraction from verification results, and makes saved-data access explicit. Synthetic fixture checks are distinguished from real platform acquisition. A pending retry or configured connection is not proof of usable claim evidence.
 
-    U --> G
-    U --> P
-    U --> I
+## Development boundaries
 
-    G --> T
-    P --> T
-```
+Media Forge's complete workflow, broader live-source access, forecast eligibility and generalizing model training remain gated work. A richer retrieval / knowledge store is not proof that production model weights have been trained. Wizard's knowledge-store grounding remains a separate development direction.
 
-The product is implemented across three private technical repositories:
-
-- **Studio workspace** — navigation, product UI, orchestration and health-aware service boundaries.
-- **Generator** — the website-generation engine.
-- **Pipeline** — extraction, knowledge, evaluation and supporting Python workflows.
-
-Those repositories are components of **Aetheria Studio**, not separate portfolio products.
-
-## Creation workflows
-
-### Clone
-
-Clone turns a reference into an editable starting point. The documented implementation includes extraction, an editable template contract and safeguards around generated output. A reference is an input to a workflow, not permission to republish somebody else's protected assets.
-
-### Composer
-
-Composer is the assembly and refinement workspace. The documented implementation supports section selection and reordering, site styles, motion choices, multi-page compositions, live patching, refinement and asset rehosting.
-
-The goal is to make composition inspectable: structure, styling and generated changes remain editable instead of being hidden behind a single opaque generation step.
-
-### Wizard
-
-Wizard starts with a structured brief and compiles it into a generation request. The documented v1 uses a multi-step intake and shares the same template contract as the other creation paths.
-
-Knowledge-store grounding remains a separate development direction rather than something this portfolio page claims as complete.
-
-### Workbench
-
-Workbench is the operational side of the design-knowledge loop. The private documentation describes controls for enrichment readiness, source management, run history, corpus visibility and evaluation/training experimentation.
-
-The important boundary is that **retrieval and an improving knowledge store are not the same as training new production model weights**.
-
-### Media Forge
-
-Media Forge is the active build track for media scanning, generation, guarding and integration. Workers and a Studio panel are documented, but the complete end-to-end route is not yet presented here as finished.
-
-## Engineering principles
-
-Aetheria Studio is being developed around a few recurring constraints:
-
-- **Explicit component boundaries.** Workspace, generator, pipeline and inference services have distinct responsibilities.
-- **Shared contracts.** Creation modes exchange reusable template/artifact structures instead of inventing incompatible outputs.
-- **Inspectable automation.** Generated or proposed changes should remain reviewable and editable.
-- **Health-aware integration.** Unavailable services should be visible as unavailable rather than silently presented as successful.
-- **Rights-aware inputs.** References, screenshots, media and generated assets still require appropriate rights and permissions.
-- **Evidence before capability claims.** Research tracks and incomplete integrations stay labeled as such.
-
-## Dated engineering evidence
-
-The Aetheria Studio repository records the following verification snapshot for **6 September 2026**:
-
-- 371 specification files / 4,255 tests reported green;
-- ESLint reported clean;
-- TypeScript `tsc --noEmit` reported clean;
-- the Next.js production build reported successful.
-
-I did not rerun those checks as part of this public-portfolio update, so the date is preserved rather than presented as a live status badge.
-
-## What this page does not claim
-
-Aetheria Studio is an active development system, not a claim of universal production readiness.
-
-In particular:
-
-- Media Forge remains in development.
-- No fine-tuned model is presented here as production-proven.
-- Workbench research does not imply that a trained adapter has passed a generalization gate.
-- A knowledge store becoming richer is not equivalent to model-weight training.
-- This portfolio update does not establish a fresh end-to-end runtime, deployment or security certification.
-
-Private source code, credentials, local corpora and creative material are intentionally excluded from the public portfolio.
-
-## Aetheria family
-
-**Aetheria Studio** covers website creation, UI/UX, effects and creative-tool enrichment.
-
-**Aetheria Music** is a sibling domain. Its first documented product is **[Master / RACK](master-rack.md)**, a modular audio-mastering project. Aetheria Music is not an internal module of Aetheria Studio.
+Reference sites and media require appropriate rights. Private corpora, account sessions and creative material are excluded from this portfolio.

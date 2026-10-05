@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="590" viewBox="0 0 720 590" role="img" aria-labelledby="title desc">
+<title id="title">PoolBoy evidence and reporting</title><desc id="desc">Operational observations, reward records and cost evidence remain separate. Reconciliation produces reports with visible coverage and uncertainty.</desc>
+<rect width="720" height="590" rx="20" fill="#101a26"/>
+<text x="32" y="51" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">POOLBOY</text>
+<text x="32" y="95" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Operations with evidence</text>
+<rect x="32" y="126" width="656" height="132" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="142" width="4" height="100" rx="2" fill="#a5e6cd"/>
+<text x="56" y="165" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Separate records</text>
+<text x="56" y="203" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Worker health · rewards · balances</text>
+<text x="56" y="237" fill="#c1cdd9" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Costs + invoice evidence</text>
+<path d="M360 267 v20 m-7 -7 l7 7 l7 -7" fill="none" stroke="#c1cdd9" stroke-width="2"/>
+<rect x="32" y="298" width="656" height="104" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="314" width="4" height="72" rx="2" fill="#a5e6cd"/>
+<text x="56" y="337" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Reconciliation</text>
+<text x="56" y="375" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Coverage · valuation · attribution</text>
+<path d="M360 411 v20 m-7 -7 l7 7 l7 -7" fill="none" stroke="#c1cdd9" stroke-width="2"/>
+<rect x="32" y="442" width="656" height="104" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="458" width="4" height="72" rx="2" fill="#a5e6cd"/>
+<text x="56" y="481" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Reporting</text>
+<text x="56" y="519" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Health + economics, with stated uncertainty</text>
+</svg>

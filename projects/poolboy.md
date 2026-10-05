@@ -1,31 +1,33 @@
 # PoolBoy
 
-**Product family:** Matheria · **Domain:** Finance
+**Matheria · Finance · Mining operations**
 
-**Mining operations and reporting with a clear distinction between records, estimates and proof.**
+PoolBoy is a Bitcoin-mining monitoring and economics dashboard. It connects operational visibility with reporting that distinguishes credited earnings, received payouts, estimated costs and invoice evidence.
 
-[Back to the portfolio](../README.md)
+[Portfolio](../README.md) · [Trading research: 2DEXY Full-Stack](2dexy-fullstack.md)
 
-## The problem
+![PoolBoy separates operational observations, reward records and cost evidence before presenting health, reconciliation and reports.](../assets/diagrams/poolboy-evidence.svg)
 
-A mining dashboard needs to explain more than a headline return. Credited earnings, received payouts, estimated operating costs and verified invoices answer different questions. Combining them without explanation makes operational decisions harder to trust.
+*Reporting architecture, not a dashboard screenshot.*
 
-## Project focus
+## What exists
 
-PoolBoy focuses on mining visibility and evidence-backed reporting. Its documented reporting workflow traces credited earnings and their valuation, checks coverage and compares report totals with control totals.
+- Pool and worker-health collection with separate reward, balance and availability records.
+- Economics views with cost profiles, valuation and reconciliation.
+- Profitability ledgers that expose complete, partial, estimated and withheld inputs.
+- Invoice-review workflows, evidence snapshots and reporting tools.
+- Operational guidance and an assistant grounded in the dashboard's available evidence.
 
-The broader product direction includes clearer collection health, more intuitive navigation and more dependable profitability screening. Those goals should remain separate from claims about what a current deployment has already passed.
+Missing coverage remains visible. A pool credit, a wallet receipt and a verified hosting cost each answer a different question; the reporting system keeps those distinctions intact.
 
-## Evidence matters
+## Engineering and evidence
 
-A record of what a pool credited is not, by itself, independent proof that a particular miner performed hashing or that a payout reached its destination. Reports need to state the scope of their evidence and keep missing coverage visible.
+**Stack:** Next.js, React, TypeScript and PostgreSQL, with collection and reporting tooling.
 
-This distinction is a product requirement, not a financial-performance claim or a statement that a report has legal certification.
+The **2 October 2026 source-publication record** reports a passing typecheck and **3,162 tests passing**. Five listener-dependent tests failed or timed out; the record identifies sandbox listener errors among those failures. Database integration tests, a production build and live runtime checks were outside that publication run.
 
-## Development boundary
+The public overview contains no account identifiers, balances, invoices or operational records.
 
-The PoolBoy project identity and reporting workflow are documented. Its current source-repository mapping, live collector, accounting completeness and deployed user interface have not been independently verified for this overview.
+## Development status
 
-Operational credentials, account identifiers, balances, payment records and invoices are not published here. Any future demonstration should use explicitly approved example data.
-
-Within Matheria Finance, PoolBoy covers mining operations; 2DEXY FullStack remains a separate markets/trading product. No shared data access or runtime integration is implied.
+Monitoring and evidence-aware reporting are implemented and under active refinement. Accounting completeness depends on source coverage and supplied cost evidence. Estimates are labelled; report totals are not presented as independent proof of hashing, payout receipt or investment performance.

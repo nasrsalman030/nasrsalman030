@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="598" viewBox="0 0 720 598" role="img" aria-labelledby="title desc">
+<title id="title">SignalHire discovery workflow</title><desc id="desc">Configured public sources and profile facets feed normalization and explainable matching, followed by reviewed results and an explicit application handoff.</desc>
+<rect width="720" height="598" rx="20" fill="#101a26"/>
+<text x="32" y="51" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">SIGNALHIRE</text>
+<text x="32" y="95" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">From opportunity to review</text>
+<rect x="32" y="126" width="656" height="104" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="142" width="4" height="72" rx="2" fill="#a5e6cd"/>
+<text x="56" y="165" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Inputs</text>
+<text x="56" y="203" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Profile facets + configured public boards</text>
+<path d="M360 239 v20 m-7 -7 l7 7 l7 -7" fill="none" stroke="#c1cdd9" stroke-width="2"/>
+<rect x="32" y="270" width="656" height="132" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="286" width="4" height="100" rx="2" fill="#a5e6cd"/>
+<text x="56" y="309" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Discovery and matching</text>
+<text x="56" y="347" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Normalize · deduplicate · rank</text>
+<text x="56" y="381" fill="#c1cdd9" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Match reasons + source-status visibility</text>
+<path d="M360 411 v20 m-7 -7 l7 7 l7 -7" fill="none" stroke="#c1cdd9" stroke-width="2"/>
+<rect x="32" y="442" width="656" height="104" rx="12" fill="#172635" stroke="#314458"/>
+<rect x="32" y="458" width="4" height="72" rx="2" fill="#a5e6cd"/>
+<text x="56" y="481" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Reviewed opportunities</text>
+<text x="56" y="519" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Original posting + explicit handoff</text>
+</svg>

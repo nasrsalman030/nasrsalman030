@@ -1,23 +1,33 @@
 # SignalHire
 
-**Product family:** Matheria · **Domain:** Office
+**Matheria · Office · Opportunity discovery**
 
-**A related Office project within the Matheria product family.**
+SignalHire is a local healthcare and biotech job-discovery workspace. It brings profile setup, configured public job sources, explainable matching and an explicit application handoff into one search flow.
 
-[Back to the portfolio](../README.md)
+[Portfolio](../README.md) · [Application creation: ApplyFi](applyfi.md)
 
-## Position in the family
+![SignalHire workflow: profile facets and configured public job boards feed normalization and matching, followed by reviewed opportunities and an explicit application handoff.](../assets/diagrams/signalhire-workflow.svg)
 
-SignalHire remains a distinct Office project. ApplyFi is my current job-search tool; SignalHire's specific responsibilities alongside it are being clarified as the projects are organized.
+*Implementation map, not an application screenshot.*
 
-Earlier planning explored opportunity discovery, profile matching and application-workflow coordination. Those are areas of planned work, not evidence that a particular integration or division of responsibilities is complete.
+## What exists
 
-## Design direction
+- A **Find jobs** workspace with profile editing, CV import and match explanations.
+- Configured Greenhouse and Lever adapters, bounded ingestion and deduplication.
+- Deterministic ranking, original-posting links and local job persistence.
+- Search caching, explicit refresh and visible source-failure / stale-result states.
+- An explicit application handoff and structured CV-creator profile/event contracts.
 
-Where the products eventually work together, opportunities should have consistent identities, recommendations should be understandable, and processing history should prevent redundant work. Shared branding must not silently expand access to profile information or application records.
+LinkedIn support opens a search link in the user's browser. The separate market-insight workspaces use labelled offline examples.
 
-## Development boundary
+## Engineering and evidence
 
-This page does not certify a current repository mapping, running service or completed SignalHire–ApplyFi integration.
+**Stack:** Python, FastAPI, SQLite / FTS5 and a browser workspace.
 
-The next product-level step is to confirm responsibilities against the actual implementation before making more specific public capability claims. Personal profiles, credentials and application histories are not part of this portfolio.
+The **30 September 2026 quality record** reports **64 tests passing**, successful compile and dependency checks, and browser verification of search, profile controls, source failures, keyboard navigation and responsive layouts. It records point-in-time public-board retrieval; future availability depends on the configured sources.
+
+CV content is digested into structured facets. The documented release keeps raw CV text out of durable integration storage and does not send profiles to an AI provider.
+
+## Development status
+
+Discovery and matching are implemented. Source expansion, production insight feeds, ML ranking and durable application lifecycle / receipt upgrades remain future work. The existing handoff does not establish an end-to-end ApplyFi integration or automatic application submission.

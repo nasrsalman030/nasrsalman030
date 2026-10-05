@@ -1,29 +1,34 @@
 # 2DEXY Full-Stack
 
-**Product family:** Matheria · **Domain:** Finance
+**Matheria · Finance · Trading-system research**
 
-**Trading-system engineering with explicit evaluation and execution boundaries.**
+2DEXY Full-Stack is a web-based trading-system engineering project. It separates the operator interface, control and learning workflows, and low-latency execution so that decisions and outcomes can be inspected across the system.
 
-[Back to the portfolio](../README.md)
+[Portfolio](../README.md) · [Mining operations: PoolBoy](poolboy.md)
 
-## The engineering problem
+## System architecture
 
-A responsive interface is not evidence that a trading system can execute safely or make money. Data collection, decision logic, transaction handling and accounting need separate responsibilities and independently inspectable evidence.
+| Layer | Responsibility | Technology |
+| --- | --- | --- |
+| Operator interface | Configuration, diagnostics and research visibility | Next.js |
+| Control and learning | Data workflows, orchestration and evaluation | Python |
+| Execution engine | Low-latency transaction handling | Rust |
 
-## The documented architecture
+## Current engineering focus
 
-2DEXY Full-Stack is the web-system variant of the project. Its documentation separates a Next.js operator interface, a Python control and learning component, and a Rust low-latency engine.
+- Traceable data collection and paper-trade outcome lineage.
+- Explicit risk gates, accounting and recovery behavior.
+- Reproducible ML / signal evaluation and profitability analysis.
+- Project identity and operating guides that distinguish this web system from earlier variants.
 
-This separation gives the interface, orchestration and execution code distinct responsibilities. Project identity and operating guides are used to prevent commands or configuration from being mixed with other variants.
+Current work continues across those areas. The engineering question is whether the whole decision-to-outcome chain produces trustworthy evidence, rather than whether an interface looks healthy in isolation.
 
-## Safety and evidence
+## Evidence and development status
 
-The project documentation explicitly distinguishes process health from evaluation readiness, economic evidence and release authorization. Successful builds, model metrics and an available dashboard are not treated as substitutes for those gates.
+This is an active development and research system. Repository guidance separates process health, paper diagnostics, economic evidence and authorization for shadow or live operation. Build success and model metrics do not establish trading readiness or profitability.
 
-The development brief retains a fail-closed live-trading boundary. This portfolio review did not start a process, change a risk setting or authorize trading.
+No live-readiness or return claim is made here. Credentials, wallet records and private trading / training evidence remain outside the portfolio.
 
-## Development boundary
+## Earlier dashboard
 
-This is an architectural overview of a development and research project. It makes no claim of live readiness, positive profitability, investment returns or production certification. Current runtime and performance were not independently tested for this review.
-
-Wallet information, credentials, account records and private trading or training evidence are not part of the public project notes.
+The public [2DEXY dashboard](https://github.com/nasrsalman030/2dexy-dashboard) is an earlier Flask / SQLite dashboard and control-plane implementation. It is separate from the current Next.js / Python / Rust Full-Stack system. Its README explains that scope; its code is not a current Full-Stack release.

@@ -1,31 +1,30 @@
 # ApplyFi
 
-**Product family:** Matheria · **Domain:** Office
+**Matheria · Office · Application creation**
 
-**The current job-search tool, with a development direction spanning opportunity selection, individualized applications and document quality.**
+ApplyFi is my current application workflow: it connects selected opportunities with tailored documents, structured review and consistent visual quality. Its reusable engine and document adapters are maintained separately from personal application material.
 
-[Back to the portfolio](../README.md)
+[Portfolio](../README.md) · [Office discovery: SignalHire](signalhire.md)
 
-## Purpose
+## What exists
 
-ApplyFi is my current job-search tool. Its direction is to connect relevant opportunities with the profile information and application materials needed to respond thoughtfully, rather than treat job search as an untracked collection of vacancies.
+- A reusable Python application-creation engine and document adapters.
+- A local document workflow for preparing and revising application materials.
+- Review criteria covering role relevance, factual consistency, typography, spacing and page flow.
+- Offline core tests included in the private publication baseline.
 
-## Application and document quality
+The emphasis is on a coherent application package: supplied facts remain traceable, changes can be reviewed, and approved versions stay recoverable.
 
-The intended application workflow turns approved profile information and a selected opportunity into a coherent application package. Biotechnology and healthcare provide the initial domain focus for developing relevant review criteria.
+## Working alongside SignalHire
 
-Revisions should remain grounded in information actually supplied and be assessed for role relevance and consistency with the CV's layout concept, including typography, spacing, paragraphs and page flow. Approved versions should remain recoverable instead of being silently overwritten.
+SignalHire supplies a dedicated discovery and matching workspace with an explicit application handoff. ApplyFi retains the application-creation role and the broader current application workflow. Their shared Office identity does not imply a completed, durable integration across every step.
 
-Machine-readable structure and visual inspection are complementary requirements. No universal applicant-tracking-system pass rate or hiring outcome is promised.
+## Engineering and evidence
 
-## Relationship to SignalHire
+**Stack:** Python engine and document adapters; local document rendering and inspection.
 
-Both projects sit within Matheria Office. ApplyFi is the current job-search tool; the separate responsibilities and integration of SignalHire are being clarified. This portfolio does not assign job-search ownership away from ApplyFi or claim that a cross-product handoff is already complete.
+The **2 October 2026 publication record** reports **37 included core tests passing** and Ruff passing. Private-document renderer and release integration checks were outside that publication baseline. Personal CVs, letters, factual memory and release artifacts are excluded from the source snapshot.
 
-## Automation boundary
+## Development status
 
-Form filling, duplicate-application prevention and submission automation are development goals, not end-to-end capabilities independently established by this overview. Any eventual workflow should distinguish preparing material, reviewing it and submitting it.
-
-## Privacy and evidence
-
-Real CVs, application documents, profile details and submission records are intentionally excluded. Product direction should not be mistaken for a verified current runtime or a public service launch.
+The reusable core is implemented. Broader form preparation, durable cross-product receipts and end-to-end submission automation remain separate development work. A reviewed document is not a submitted application; no hiring outcome or universal applicant-tracking-system pass rate is claimed.
