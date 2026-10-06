@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="216" viewBox="0 0 720 216" role="img" aria-labelledby="title desc">
 <title id="title">Matheria and Aetheria product families</title><desc id="desc">Matheria: Office and Finance. Aetheria: Studio and Music. Separate products connected by clear interfaces.</desc>
-<rect width="720" height="216" fill="#101a26"/>
-<text x="32" y="48" fill="#c1cdd9" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">PRODUCT FAMILIES</text>
-<text x="32" y="114" fill="#a5e6cd" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">Matheria</text>
-<text x="32" y="159" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400">Office · Finance</text>
-<path d="M352 82 V172" stroke="#314458"/>
-<text x="388" y="114" fill="#accaff" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700">Aetheria</text>
-<text x="388" y="159" fill="#f3f6fa" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400">Studio · Music</text>
+<rect width="720" height="216" fill="#111827"/>
+<text x="32" y="43" fill="#AEBACB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">PRODUCT FAMILIES</text>
+<text x="32" y="111" fill="#77D6B2" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Matheria</text>
+<text x="32" y="153" fill="#E3E9F2" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Office · Finance</text>
+<path d="M360 67 V176" stroke="#364255" stroke-width="1.5"/>
+<text x="392" y="111" fill="#AFC3FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Aetheria</text>
+<text x="392" y="153" fill="#E3E9F2" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Studio · Music</text>
 </svg>
