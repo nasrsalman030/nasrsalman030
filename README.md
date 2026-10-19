@@ -6,6 +6,10 @@ I develop software for professional workflows, operational decisions and creativ
 
 <img src="assets/diagrams/product-families.svg" width="100%" alt="Matheria covers Office and Finance. Aetheria covers Studio and Music.">
 
+## For recruiters
+
+Start with the **[recruiter guide](RECRUITERS.md)** for a comparison of the six featured products, their technology and the evidence available without source access. Each project page separates implemented work from research and open development.
+
 ## Matheria
 
 ### Office
@@ -44,8 +48,8 @@ The workspace, generator and Python pipeline are components of one Studio produc
 - **Reviewable automation:** visible inputs, editable outputs and deliberate approval steps.
 - **Evidence-led engineering:** tests, measurements and dated verification records support capability claims.
 
-The project pages distinguish implemented workflows, active development and research. Source repositories remain private where they contain proprietary work; this portfolio presents selected architecture and demonstrations.
+The project pages distinguish implemented workflows, active development and research. The source repositories for all six featured products are private. This public portfolio presents product descriptions, selected architecture and a dated application capture.
 
 [Repository guide](REPOSITORIES.md) · [Supporting engineering tools](projects/engineering-tools.md)
 
-*Portfolio reviewed 5 October 2026. Product status reflects the cited documentation, not a fresh runtime certification.*
+*Portfolio organization and featured-source visibility reviewed 20 October 2026. Product status and test results retain their original evidence dates; this review is not a fresh runtime certification.*
