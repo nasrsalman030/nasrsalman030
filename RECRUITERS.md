@@ -4,6 +4,8 @@
 
 **Matheria** covers work and operations through Office and Finance. **Aetheria** covers creation through Studio and Music. The six products below retain their separate source repositories and technical boundaries.
 
+This is a presentation-only portfolio. It provides no application source files, source-code downloads or source browsing access. Public presentation materials can be downloaded through GitHub's standard interface.
+
 ## Selected projects
 
 | Family / domain | Product and engineering focus | Technology | Evidence to explore |
