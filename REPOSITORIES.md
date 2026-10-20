@@ -1,6 +1,6 @@
 # Repository guide
 
-The portfolio is organized by products. Source repositories reflect technical boundaries and publication history. The repositories below retain their existing visibility; private source links require access.
+The portfolio is organized by products. Source repositories reflect technical boundaries and publication history. The featured product sources and earlier 2DEXY dashboard are private. Repository names are listed for orientation; private source access is restricted.
 
 [Back to the portfolio](README.md)
 
@@ -24,9 +24,10 @@ Studio's three repositories are components of one product. Shared family names d
 | `Talos`, `SMAPP` | Related coding-agent development repositories; consolidation remains a separate ownership decision. |
 | `claude-skills`, `swarm-context-precision`, `ai-stack` | Supporting skills, context practices and local AI tooling. |
 | `AETHERIA` | Earlier mixed Aetheria / GIF-creation workspace; separate from the dedicated Studio component repositories. |
-| [2dexy-dashboard](https://github.com/nasrsalman030/2dexy-dashboard) | Earlier public Flask / SQLite dashboard and control plane. |
+| `2dexy-dashboard` | Earlier Flask / SQLite dashboard and control plane; source made private on 20 October 2026. |
 | `2dexy-Team-Fullstack-`, `2dexy-Pro-MacOS-`, `2dexy.io` | Separate 2DEXY variants; names are retained to preserve their identities. |
-| [openclaw](https://github.com/nasrsalman030/openclaw) | Upstream fork, distinct from the original projects in this portfolio. |
+| `openclaw-private` | Private standalone copy preserving the existing OpenClaw branch history; separate from the featured products. |
+| [openclaw](https://github.com/nasrsalman030/openclaw) | Existing public upstream fork retained pending a separate migration decision; distinct from the original projects in this portfolio. |
 
 Other research repositories remain separate work. Their presence is not a claim that they have been integrated into a current product.
 
