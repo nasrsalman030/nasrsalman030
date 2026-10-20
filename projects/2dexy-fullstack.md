@@ -31,4 +31,4 @@ No live-readiness or return claim is made here. Credentials, wallet records and 
 
 ## Earlier dashboard
 
-The public [2DEXY dashboard](https://github.com/nasrsalman030/2dexy-dashboard) is an earlier Flask / SQLite dashboard and control-plane implementation. It is separate from the current Next.js / Python / Rust Full-Stack system. Its README explains that scope; its code is not a current Full-Stack release.
+The earlier `2dexy-dashboard` is a Flask / SQLite dashboard and control-plane implementation. Its source repository was made private on 20 October 2026. It is separate from the current Next.js / Python / Rust Full-Stack system. Its README explains that scope; its code is not a current Full-Stack release.
