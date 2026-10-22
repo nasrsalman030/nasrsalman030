@@ -6,10 +6,6 @@ I develop software for professional workflows, operational decisions and creativ
 
 <img src="assets/diagrams/product-families.svg" width="100%" alt="Matheria covers Office and Finance. Aetheria covers Studio and Music.">
 
-## For recruiters
-
-Start with the **[recruiter guide](RECRUITERS.md)** for a comparison of the six featured products, their technology and the evidence available without source access. Each project page separates implemented work from research and open development.
-
 ## Matheria
 
 ### Office
