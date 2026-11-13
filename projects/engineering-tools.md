@@ -1,17 +1,17 @@
 # Supporting engineering tools
 
-Talos and reusable agent workflows support the broader engineering practice alongside the Matheria and Aetheria product families.
+[Portfolio](../README.md) · [Project index](../REPOSITORIES.md) · [Engineering overview](../RECRUITERS.md)
 
-[Portfolio](../README.md) · [Repository guide](../REPOSITORIES.md)
+Talos and reusable engineering workflows support the broader development practice alongside Matheria, Aetheria and Soteria Line.
 
 ## Talos
 
-Talos is a coding-agent development project with Python orchestration, a Rust core and a web interface. Its repository documents component boundaries, model-access configuration, debugging and development workflows.
+**Talos** is a coding-agent development project with Python orchestration, a Rust core and a web interface. Its documented work covers component boundaries, model-access configuration, debugging and development workflows.
 
-This supporting project is under active engineering work. The portfolio does not claim that its self-improvement research has established generalization or that every desktop runtime path is release-ready.
-
-Two private repositories, `Talos` and `SMAPP`, contain Talos-related development. Their shared project name does not establish that they are interchangeable; their source histories and runtime ownership should be checked before consolidation.
+Talos is under active engineering work. Self-improvement research and desktop runtime readiness require their own validation; this overview does not claim that every runtime path is release-ready.
 
 ## Reusable workflows
 
-Private skill and context repositories hold reusable engineering instructions, including scoped retrieval, evidence-backed verification and agent-context practices. They are supporting resources rather than additional products in the Office, Finance, Studio or Music catalog.
+Reusable skills and context practices support scoped retrieval, reviewable automation and evidence-backed verification. They are engineering resources that support the product portfolio.
+
+Implementation repositories and private development materials remain private. This page describes the supporting work at a high level.

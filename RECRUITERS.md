@@ -1,39 +1,38 @@
-# Recruiter guide
+# Engineering overview
 
-[Portfolio](README.md) · [Repository guide](REPOSITORIES.md)
+[Portfolio](README.md) · [Project index](REPOSITORIES.md)
 
-**Matheria** covers work and operations through Office and Finance. **Aetheria** covers creation through Studio and Music. The six products below retain their separate source repositories and technical boundaries.
+I develop software across three areas: **Matheria** for professional workflows and operations, **Aetheria** for creative tools, and **Soteria Line** for cybersecurity.
 
-This is a presentation-only portfolio. It provides no application source files, source-code downloads or source browsing access. Public presentation materials can be downloaded through GitHub's standard interface.
+This portfolio presents selected products, architecture and dated engineering evidence. Implementation source code remains private.
 
-## Selected projects
+## Projects and engineering focus
 
-| Family / domain | Product and engineering focus | Technology | Evidence to explore |
-| --- | --- | --- | --- |
-| Matheria / Office | [ApplyFi](projects/applyfi.md): reusable application-document workflows and review | Python; document adapters | Core implementation and a 2 October 2026 publication record reporting 37 passing core tests; renderer and release checks excluded |
-| Matheria / Office | [SignalHire](projects/signalhire.md): opportunity discovery and explainable matching | Python, FastAPI, SQLite / FTS5 | Workflow diagram; 30 September 2026 record reporting 64 passing tests and browser checks |
-| Matheria / Finance | [PoolBoy](projects/poolboy.md): mining monitoring and reconciliation with explicit evidence coverage | Next.js, React, TypeScript, PostgreSQL | Architecture diagram; 2 October 2026 record reporting 3,162 passing tests and five listener-related failures or timeouts; build and live checks excluded |
-| Matheria / Finance | [2DEXY Full-Stack](projects/2dexy-fullstack.md): trading research with interface, control and execution boundaries | Next.js, Python, Rust | Architecture and research boundaries; no profitability or live-readiness claim |
-| Aetheria / Studio | [Aetheria Studio](projects/aetheria-studio.md): website creation with workspace, generator and pipeline components | Next.js, TypeScript, Python | Component map; 4 October 2026 local record reporting 4,576 passing tests, one skipped, and build / browser checks; local work may be newer than the GitHub snapshot |
-| Aetheria / Music | [Master / RACK](projects/master-rack.md): editable mastering chain and predictable audio processing | C++, Web Audio / WebAssembly, Tauri | Actual application capture dated 2 October 2026; dated maintenance evidence with a narrowly defined scope |
+| Project | Engineering focus | Public material |
+| --- | --- | --- |
+| [ApplyFi](projects/applyfi.md) | Reusable document workflows, structured review and output quality. | Workflow description, Python architecture summary and dated validation summaries. |
+| [SignalHire](projects/signalhire.md) | Data ingestion, explainable matching and an application handoff. | Workflow diagram, Python / FastAPI / SQLite architecture and implementation boundaries. |
+| [PoolBoy](projects/poolboy.md) | Operational data, earnings reconciliation and explicit evidence coverage. | Architecture diagram, Next.js / TypeScript / PostgreSQL system overview and dated verification. |
+| [2DEXY Full-Stack](projects/2dexy-fullstack.md) | Separation of operator interface, control logic and execution. | Next.js / Python / Rust architecture, evaluation boundaries and research scope. |
+| [Aetheria Studio](projects/aetheria-studio.md) | AI-assisted creation with workspace, generation and knowledge-processing components. | Component map, creation workflows and dated build and browser-check summaries. |
+| [Master / RACK](projects/master-rack.md) | Editable audio processing and visible loudness targets. | DSP workflow, C++ / Web Audio / WebAssembly / Tauri context and an application capture. |
+| [Soteria](projects/soteria-line.md) | Security assessment, passive research and framework mapping. | Soteria / Phylax / OSINT plugin structure and the documented assessment scope. |
 
-The linked records describe point-in-time checks. Their test counts are not new results from today's portfolio review. Implemented functionality, integration coverage and release readiness are described separately on each project page.
+## How to read the evidence
 
-## Evidence without publishing source
+Each project page distinguishes implemented functionality, active development and research. Test and build records are point-in-time observations with their original dates and limitations; they are not fresh results from this portfolio update.
 
-On **20 October 2026**, an authenticated GitHub metadata check confirmed that the **eight source repositories behind these six products exist and are private**. The [repository guide](REPOSITORIES.md) maps each product to its source repositories. Studio uses three repositories for one product.
+For a technical discussion, useful starting points are:
 
-This is an owner-side repository check. Public descriptions alone are not independent verification of source contents or current runtime behavior. The portfolio provides a way to inspect scope, architecture and documented engineering evidence without exposing implementation code.
+- How component boundaries support failure handling and recovery.
+- How data quality and evidence coverage affect operational decisions.
+- Where automation requires review and how outputs remain inspectable.
+- What a dated test, build or application capture establishes.
 
-For a technical discussion, useful topics include:
+The public material does not establish profitability or live readiness for trading systems, continuous monitoring or automated remediation for Soteria, or completion of deferred AI research.
 
-- A guided product walkthrough using synthetic or sanitized inputs.
-- How an architecture diagram maps to component responsibilities.
-- The scope and limitations of a dated build or test record.
-- Decisions about failure handling, data quality and reviewable automation.
+## Supporting engineering work
 
-These are discussion routes, not a promise of public source access or an already available live demo. Source access, personal documents, credentials, account sessions and operational or research data are excluded from this public portfolio.
+[Talos and reusable workflows](projects/engineering-tools.md) cover coding-agent development, scoped retrieval and verification practices used alongside the product portfolio.
 
-## Supporting work
-
-[Supporting engineering tools](projects/engineering-tools.md) covers Talos and reusable workflows. Earlier variants and upstream forks are identified in the [repository guide](REPOSITORIES.md) so they can be distinguished from the six featured products.
+*Overview updated 13 November 2026. See the [project index](REPOSITORIES.md) for the complete public presentation list.*

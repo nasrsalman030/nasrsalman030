@@ -1,10 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="216" viewBox="0 0 720 216" role="img" aria-labelledby="title desc">
-<title id="title">Matheria and Aetheria product families</title><desc id="desc">Matheria: Office and Finance. Aetheria: Studio and Music. Separate products connected by clear interfaces.</desc>
-<rect width="720" height="216" fill="#111827"/>
-<text x="32" y="43" fill="#AEBACB" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="1.2">PRODUCT FAMILIES</text>
-<text x="32" y="111" fill="#77D6B2" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Matheria</text>
-<text x="32" y="153" fill="#E3E9F2" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Office · Finance</text>
-<path d="M360 67 V176" stroke="#364255" stroke-width="1.5"/>
-<text x="392" y="111" fill="#AFC3FF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Aetheria</text>
-<text x="392" y="153" fill="#E3E9F2" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Studio · Music</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="248" viewBox="0 0 960 248" role="img" aria-labelledby="title desc">
+  <title id="title">Matheria, Aetheria and Soteria Line</title>
+  <desc id="desc">Three product lines: Matheria for Office and Finance, Aetheria for Studio and Music, and Soteria Line for Cybersecurity.</desc>
+  <rect width="960" height="248" rx="16" fill="#111827"/>
+  <text x="32" y="43" fill="#B6C2D4" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2">PRODUCT LINES</text>
+  <path d="M32 66 H928" stroke="#334155"/>
+  <path d="M328 94 V210 M640 94 V210" stroke="#334155"/>
+  <rect x="32" y="94" width="36" height="4" rx="2" fill="#77D6B2"/>
+  <text x="32" y="145" fill="#77D6B2" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Matheria</text>
+  <text x="32" y="185" fill="#E5ECF5" font-family="Arial, Helvetica, sans-serif" font-size="21">Office · Finance</text>
+  <rect x="360" y="94" width="36" height="4" rx="2" fill="#AFC3FF"/>
+  <text x="360" y="145" fill="#AFC3FF" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Aetheria</text>
+  <text x="360" y="185" fill="#E5ECF5" font-family="Arial, Helvetica, sans-serif" font-size="21">Studio · Music</text>
+  <rect x="672" y="94" width="36" height="4" rx="2" fill="#F0C987"/>
+  <text x="672" y="145" fill="#F0C987" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">Soteria Line</text>
+  <text x="672" y="185" fill="#E5ECF5" font-family="Arial, Helvetica, sans-serif" font-size="21">Cybersecurity</text>
 </svg>
