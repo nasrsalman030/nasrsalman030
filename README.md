@@ -1,10 +1,12 @@
 # Nasr Salman
 
-**Building Matheria and Aetheria — systems for work, tools for creation.**
+**Building Matheria, Aetheria and Soteria — systems for work, tools for creation and cybersecurity.**
 
-I develop software for professional workflows, operational decisions and creative production. My projects sit in two complementary families: **Matheria** for work and operations, and **Aetheria** for creation and expression.
+I develop software for professional workflows, operational decisions and creative production. My projects sit in three complementary families: **Matheria** for work and operations, **Aetheria** for creation and expression, and **Soteria** for cybersecurity.
 
 <img src="assets/diagrams/product-families.svg" width="100%" alt="Matheria covers Office and Finance. Aetheria covers Studio and Music.">
+
+*The Matheria and Aetheria product map; Soteria is described below.*
 
 ## Matheria
 
@@ -38,14 +40,22 @@ The workspace, generator and Python pipeline are components of one Studio produc
 
 *RACK application capture, 2 October 2026. [Explore the Music project](projects/master-rack.md).*
 
+## Soteria
+
+**Soteria** is the cybersecurity system. **Phylax** is its assessment and monitoring component. **OSINT & Security Frameworks** remains the separately named **OSINT plugin**, used by Phylax for research and assessments.
+
+Current capabilities include on-demand security assessment workflows, passive organizational OSINT, framework mapping and bounded local evidence tools. Continuous monitoring and automated remediation are not implemented by this structure update.
+
 ## How I build
 
 - **Clear responsibilities:** explicit interfaces between products, services and data.
 - **Reviewable automation:** visible inputs, editable outputs and deliberate approval steps.
 - **Evidence-led engineering:** tests, measurements and dated verification records support capability claims.
 
-The project pages distinguish implemented workflows, active development and research. The source repositories for all six featured products are private. This public portfolio presents product descriptions, selected architecture and a dated application capture.
+The project pages distinguish implemented workflows, active development and research. The source repositories for the six featured Matheria and Aetheria products are private. Soteria adds the cybersecurity family; the OSINT plugin retains its separate private identity. This public portfolio presents product descriptions, selected architecture and a dated application capture.
 
 [Repository guide](REPOSITORIES.md) · [Supporting engineering tools](projects/engineering-tools.md)
 
 *Portfolio organization and featured-source visibility reviewed 20 October 2026. Product status and test results retain their original evidence dates; this review is not a fresh runtime certification.*
+
+*Soteria / Phylax / OSINT plugin structure added 13 November 2026; this is a documentation update, not a runtime security assessment.*
