@@ -6,7 +6,7 @@ I develop software for professional workflows, creative production and cybersecu
 
 [Project index](REPOSITORIES.md) · [Engineering overview](RECRUITERS.md)
 
-<img src="assets/diagrams/product-families.svg" width="100%" alt="Three product lines: Matheria for Office and Finance, Aetheria for Studio and Music, and Soteria Line for Cybersecurity.">
+<img src="assets/diagrams/product-lines.svg" width="100%" alt="Three product lines: Matheria for Office and Finance, Aetheria for Studio and Music, and Soteria Line for Cybersecurity.">
 
 ## Selected work
 
