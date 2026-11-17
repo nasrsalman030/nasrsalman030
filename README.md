@@ -20,6 +20,26 @@ I develop software for professional workflows, creative production and cybersecu
 | Aetheria · Music | **[Master / RACK](projects/master-rack.md)** | Electronic-music mastering with an editable DSP chain and loudness targets. |
 | Soteria Line · Cybersecurity | **[Soteria](projects/soteria-line.md)** | Security assessment workflows, passive OSINT and framework mapping. |
 
+## Product views
+
+### [PoolBoy](projects/poolboy.md)
+
+<a href="projects/poolboy.md"><img src="assets/previews/poolboy-mining-performance.png" width="760" alt="PoolBoy mining-performance panel rendered from its private application components with synthetic fixture data and visible coverage limits."></a>
+
+*Static component preview with synthetic fixture data and visible coverage limits. [Workflow and engineering evidence](projects/poolboy.md).*
+
+### [Aetheria Studio](projects/aetheria-studio.md)
+
+<a href="projects/aetheria-studio.md"><img src="assets/previews/aetheria-wizard.png" width="760" alt="Aetheria Studio Wizard interface rendered from its private application components with a synthetic website brief."></a>
+
+*Static Wizard preview with synthetic input. Generation and saving were not exercised. [Workflows and development status](projects/aetheria-studio.md).*
+
+### [Master / RACK](projects/master-rack.md)
+
+<a href="projects/master-rack.md"><img src="assets/screenshots/rack-mastering.png" width="760" alt="RACK application capture showing the editable mastering chain, loudness target and output controls."></a>
+
+*Application capture supplied on 2 October 2026. [Processing chain and evidence](projects/master-rack.md).*
+
 ## Soteria Line
 
 **Soteria** is the cybersecurity system. **Phylax** is its assessment and monitoring component; the currently documented scope focuses on on-demand assessments. **OSINT & Security Frameworks** is the separately named OSINT plugin supporting Phylax's research and assessments.
@@ -38,4 +58,4 @@ I develop software for professional workflows, creative production and cybersecu
 
 The project pages present product scope, selected architecture and dated engineering evidence. **Implementation source code stays private.** Published descriptions distinguish implemented workflows, active development and research.
 
-*Presentation updated 13 November 2026. Engineering evidence retains the dates and scope stated on each project page.*
+*Presentation updated 17 November 2026. Engineering evidence retains the dates and scope stated on each project page.*

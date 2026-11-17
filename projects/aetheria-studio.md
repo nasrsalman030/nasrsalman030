@@ -6,6 +6,14 @@ Aetheria Studio is an AI-assisted workspace for creating and refining websites. 
 
 [Portfolio](../README.md) · [Music: Master / RACK](master-rack.md)
 
+## Interface preview
+
+![Aetheria Studio Wizard interface with a synthetic website brief](../assets/previews/aetheria-wizard.png)
+
+*Static preview rendered on 17 November 2026 from the project's private Wizard components with synthetic input. This document-rendered view does not exercise browser interactions, generation, saving or provider services. It is not a running application capture. Implementation code and the preview-generation tooling remain private.*
+
+## Product structure
+
 ![Aetheria Studio has six workflow areas supported by workspace orchestration, a generator, a Python pipeline and inference services.](../assets/diagrams/studio-system.svg)
 
 *Product and component map, not an application screenshot.*
