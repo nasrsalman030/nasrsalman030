@@ -4,7 +4,7 @@
 
 I develop software for professional workflows, creative production and cybersecurity. My work is organized into three product lines: **Matheria** for work and operations, **Aetheria** for creation, and **Soteria Line** for cybersecurity.
 
-[Project index](REPOSITORIES.md) · [Engineering overview](RECRUITERS.md)
+[Project index](REPOSITORIES.md) · [Engineering overview](ENGINEERING.md)
 
 <img src="assets/diagrams/product-lines.svg" width="100%" alt="Three product lines: Matheria for Office and Finance, Aetheria for Studio and Music, and Soteria Line for Cybersecurity.">
 

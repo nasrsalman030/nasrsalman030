@@ -2,7 +2,7 @@
 
 **Cybersecurity assessment, public-source research and security evidence.**
 
-[Portfolio](../README.md) · [Project index](../REPOSITORIES.md) · [Engineering overview](../RECRUITERS.md)
+[Portfolio](../README.md) · [Project index](../REPOSITORIES.md) · [Engineering overview](../ENGINEERING.md)
 
 Soteria Line is the cybersecurity family in this portfolio. Its structure separates the cybersecurity system, its assessment component and the research plugin that supports it.
 

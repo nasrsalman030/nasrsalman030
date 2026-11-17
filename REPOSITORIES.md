@@ -1,6 +1,6 @@
 # Public project index
 
-[Portfolio](README.md) · [Engineering overview](RECRUITERS.md)
+[Portfolio](README.md) · [Engineering overview](ENGINEERING.md)
 
 This is the public presentation index for Matheria, Aetheria and Soteria Line. Each link opens a product overview. Implementation source code stays private.
 

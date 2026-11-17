@@ -1,6 +1,6 @@
 # Supporting engineering tools
 
-[Portfolio](../README.md) · [Project index](../REPOSITORIES.md) · [Engineering overview](../RECRUITERS.md)
+[Portfolio](../README.md) · [Project index](../REPOSITORIES.md) · [Engineering overview](../ENGINEERING.md)
 
 Talos and reusable engineering workflows support the broader development practice alongside Matheria, Aetheria and Soteria Line.
 
