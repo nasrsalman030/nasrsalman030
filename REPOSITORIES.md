@@ -1,48 +1,57 @@
-# Public project index
+# Project index
 
-[Portfolio](README.md) · [Engineering overview](ENGINEERING.md)
+[Portfolio](README.md) · [Engineering approach and evidence](ENGINEERING.md)
 
-This is the public presentation index for Matheria, Aetheria and Soteria Line. Each link opens a product overview. Implementation source code stays private.
+Nine project presentations cover operational software, applied AI, creative tools, cybersecurity and messaging prototypes. Each page separates implemented workflows, research and planned behavior. **Application source code stays private.**
 
-## Featured projects
+## Matheria — work and operations
 
-| Line / domain | Public project page | What is presented |
+| Project | Focus | Maturity described here |
 | --- | --- | --- |
-| Matheria · Office | [ApplyFi](projects/applyfi.md) | Application-document preparation, structured review and layout quality. |
-| Matheria · Office | [SignalHire](projects/signalhire.md) | Healthcare and biotech discovery, explainable matching and an application handoff. |
-| Matheria · Finance | [PoolBoy](projects/poolboy.md) | Bitcoin-mining monitoring, reconciliation and evidence coverage. |
-| Matheria · Finance | [2DEXY Full-Stack](projects/2dexy-fullstack.md) | Trading-system architecture, controlled evaluation and execution boundaries. |
-| Aetheria · Studio | [Aetheria Studio](projects/aetheria-studio.md) | Website creation with workspace, generator and knowledge-pipeline components. |
-| Aetheria · Music | [Master / RACK](projects/master-rack.md) | An editable mastering chain, loudness targets and a dated application capture. |
-| Soteria Line · Cybersecurity | [Soteria](projects/soteria-line.md) | Assessment workflows, passive OSINT, framework mapping and security evidence. |
+| [PoolBoy](projects/poolboy.md) | Fleet monitoring, reconciliation and evidence coverage | Implemented workflows; active refinement |
+| [SignalHire](projects/signalhire.md) | Healthcare/biotech discovery and explainable matching | Implemented discovery core; integration work remains |
+| [ApplyFi](projects/applyfi.md) | Factual, reviewable application-document preparation | Implemented reusable core; broader automation remains |
+| [2DEXY Full-Stack](projects/2dexy-fullstack.md) | Control/execution boundaries and traceable evaluation | Active engineering and research |
 
-These are **seven featured project presentations**. Aetheria Studio's workspace, generator and pipeline are components of one product.
+## Aetheria — creative systems
 
-## Soteria Line components
+| Project | Focus | Maturity described here |
+| --- | --- | --- |
+| [Aetheria Studio](projects/aetheria-studio.md) | Structured website creation and supporting knowledge workflows | Implemented core workflows; selected features remain in development |
+| [Master / RACK](projects/master-rack.md) | Editable mastering chain and inspectable output controls | Implemented manual DSP direction; release evaluation remains |
 
-| Name | Public role |
-| --- | --- |
-| [Soteria](projects/soteria-line.md) | The cybersecurity system. |
-| [Phylax](projects/soteria-line.md#phylax) | Soteria's assessment and monitoring component, presented here through its on-demand assessment scope. |
-| [OSINT & Security Frameworks](projects/soteria-line.md#osint--security-frameworks) | The separately named OSINT plugin supporting Phylax's research and assessments. |
+Aetheria Studio's workspace, generator and pipeline are components of one product. RACK is a separate audio-processing project within Aetheria.
 
-The component names describe the Soteria structure; they are not additional independently verified product releases.
+## Soteria Line — cybersecurity
 
-## Supporting work
+**[Soteria](projects/soteria-line.md)** is the cybersecurity system, presented through its documented on-demand assessment and research scope.
 
-| Public overview | Focus |
-| --- | --- |
-| [Talos](projects/engineering-tools.md#talos) | Coding-agent development, orchestration and model-access workflows. |
-| [Reusable engineering workflows](projects/engineering-tools.md#reusable-workflows) | Scoped context, reviewable automation and evidence-backed verification. |
+- **[Phylax](projects/soteria-line.md#phylax)** is the assessment and monitoring component. The public evidence currently covers on-demand assessment scope.
+- **[OSINT & Security Frameworks](projects/soteria-line.md#osint--security-frameworks)** is the separately named research plugin supporting Phylax.
 
-## Earlier work
+These component names do not represent additional independently verified product releases.
 
-The [earlier 2DEXY dashboard](projects/2dexy-fullstack.md#earlier-dashboard) is described as historical context on the Full-Stack page. It is a separate Flask / SQLite implementation with private source, not an additional current Full-Stack release.
+## Messaging prototypes
 
-## Public repositories and source visibility
+| Project | Focus | Evidence boundary |
+| --- | --- | --- |
+| [Snapp](projects/snapp.md) | iOS messaging, connection state and interruption recovery | Prototype; historical owner-reported verification |
+| [YEP](projects/yep.md) | Multi-account coordination, identity and queue isolation | Prototype; intended design and owner-reported milestones |
 
-The [profile repository](https://github.com/nasrsalman030/nasrsalman030) contains these presentation materials and selected visuals. The eight source repositories behind the six Matheria and Aetheria products were confirmed private on 13 November 2026. Soteria implementation code is not published in this portfolio.
+The two prototypes are listed separately from the three established product families. Current device captures and build-specific verification are not available in this portfolio.
 
-An existing [OpenClaw upstream fork](https://github.com/nasrsalman030/openclaw) is also publicly visible. It is third-party work and is separate from the original projects featured here.
+## Supporting engineering work
 
-*Index and repository visibility reviewed 13 November 2026. Repository visibility does not establish current runtime behavior or release readiness.*
+[Talos and reusable engineering workflows](projects/engineering-tools.md) cover development orchestration, scoped context and review practices. They support the nine featured presentations and are not counted as additional product releases.
+
+[Product-family map](assets/diagrams/product-lines.svg) · [Verification register](ENGINEERING.md#verification-register)
+
+## Earlier work and external code
+
+The [earlier 2DEXY dashboard](projects/2dexy-fullstack.md#earlier-dashboard) is a separate Flask / SQLite implementation described as historical context on the Full-Stack page.
+
+The [profile repository](https://github.com/nasrsalman030/nasrsalman030) contains public descriptions and reviewed visuals. The eight source repositories behind the six Matheria/Aetheria products were confirmed private on **13 November 2026**. Soteria, Snapp and YEP implementation code is not published in this portfolio. This presentation update changes no repository visibility or access settings.
+
+The existing [OpenClaw upstream fork](https://github.com/nasrsalman030/openclaw) is third-party work and is separate from the original projects described here.
+
+*Index updated 18 November 2026. The dated source-visibility record is preserved; visibility does not establish runtime or release readiness.*

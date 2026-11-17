@@ -1,61 +1,78 @@
 # Nasr Salman
 
-**Applied AI & ML · Data systems · Automation**
+**Operational software · Applied AI · Data reliability**
 
-I develop software for professional workflows, creative production and cybersecurity. My work is organized into three product lines: **Matheria** for work and operations, **Aetheria** for creation, and **Soteria Line** for cybersecurity.
+I develop software that turns fragmented information into reviewable workflows. My focus is reliable data, explicit failure states and automation that keeps people in control of consequential decisions.
 
-[Project index](REPOSITORIES.md) · [Engineering overview](ENGINEERING.md)
+My contribution centers on product direction, requirements, development priorities and acceptance criteria, with AI-assisted implementation and review. The case studies explain the system choices, demonstrated behavior and limits of the available evidence.
 
-<img src="assets/diagrams/product-lines.svg" width="100%" alt="Three product lines: Matheria for Office and Finance, Aetheria for Studio and Music, and Soteria Line for Cybersecurity.">
+[Selected work](#selected-engineering) · [Role and engineering evidence](ENGINEERING.md) · [All nine projects](REPOSITORIES.md)
 
-## Selected work
+## Selected engineering
 
-| Line / domain | Project | Focus |
-| --- | --- | --- |
-| Matheria · Office | **[ApplyFi](projects/applyfi.md)** | Application documents with tailored content, structured review and consistent layout. |
-| Matheria · Office | **[SignalHire](projects/signalhire.md)** | Healthcare and biotech opportunity discovery with explainable matching. |
-| Matheria · Finance | **[PoolBoy](projects/poolboy.md)** | Bitcoin-mining monitoring, earnings reconciliation and reporting evidence. |
-| Matheria · Finance | **[2DEXY Full-Stack](projects/2dexy-fullstack.md)** | Trading-system research, controlled evaluation and execution boundaries. |
-| Aetheria · Studio | **[Aetheria Studio](projects/aetheria-studio.md)** | AI-assisted website creation through Clone, Composer and Wizard. |
-| Aetheria · Music | **[Master / RACK](projects/master-rack.md)** | Electronic-music mastering with an editable DSP chain and loudness targets. |
-| Soteria Line · Cybersecurity | **[Soteria](projects/soteria-line.md)** | Security assessment workflows, passive OSINT and framework mapping. |
+### [PoolBoy — operational data and fleet reliability](projects/poolboy.md)
 
-## Product views
+A mining-operations dashboard connecting worker health, earnings reconciliation and cost evidence. The central decision is to keep observations, credited rewards, received payouts and verified costs distinct, so incomplete data stays visible.
 
-### [PoolBoy](projects/poolboy.md)
+**Engineering:** Next.js · TypeScript · PostgreSQL
 
-<a href="projects/poolboy.md"><img src="assets/previews/poolboy-fleet.png" width="820" alt="PoolBoy fleet workspace showing mining metrics and individual miner states, rendered from private components with synthetic data."></a>
+**Status:** Implemented workflows under active refinement.
 
-*Fleet monitoring with individual miner states. Static preview with synthetic data. [Reliability view, workflow and engineering evidence](projects/poolboy.md).*
+<a href="projects/poolboy.md"><img src="assets/previews/poolboy-fleet.png" width="820" alt="PoolBoy fleet workspace with four metrics and eight synthetic miner cards, including below-baseline and offline states."></a>
 
-### [Aetheria Studio](projects/aetheria-studio.md)
+*Static preview from private interface components with synthetic data. [Reliability view and case study](projects/poolboy.md).*
 
-<a href="projects/aetheria-studio.md"><img src="assets/previews/aetheria-wizard.png" width="760" alt="Aetheria Studio Wizard interface rendered from its private application components with a synthetic website brief."></a>
+### [SignalHire](projects/signalhire.md) & [ApplyFi](projects/applyfi.md) — discovery to reviewed documents
 
-*Static Wizard preview with synthetic input. Generation and saving were not exercised. [Workflows and development status](projects/aetheria-studio.md).*
+Two complementary workflows: explainable healthcare and biotech opportunity matching, followed by tailored document preparation and review. Source freshness, duplicate handling and factual consistency are explicit concerns. The current handoff is documented separately from the planned durable integration.
 
-### [Master / RACK](projects/master-rack.md)
+**Engineering:** Python · FastAPI · SQLite / FTS5 · document adapters
 
-<a href="projects/master-rack.md"><img src="assets/screenshots/rack-mastering.png" width="760" alt="RACK application capture showing the editable mastering chain, loudness target and output controls."></a>
+**Status:** Implemented cores; broader integration remains in development.
 
-*Application capture supplied on 2 October 2026. [Processing chain and evidence](projects/master-rack.md).*
+### [2DEXY Full-Stack — system boundaries and execution research](projects/2dexy-fullstack.md)
 
-## Soteria Line
+A system separating the operator interface, control and evaluation workflows, and execution engine. The case study examines traceability, accounting, risk gates and recovery across those boundaries.
 
-**Soteria** is the cybersecurity system. **Phylax** is its assessment and monitoring component; the currently documented scope focuses on on-demand assessments. **OSINT & Security Frameworks** is the separately named OSINT plugin supporting Phylax's research and assessments.
+**Engineering:** Next.js · Python · Rust
 
-[Explore Soteria Line and its components](projects/soteria-line.md).
+**Status:** Active engineering and research; trading readiness and returns are not established by this portfolio.
 
-## Engineering approach
+### [Soteria — security evidence and assessment workflows](projects/soteria-line.md)
 
-- **Clear system boundaries:** explicit responsibilities for interfaces, services and data.
-- **Reviewable automation:** visible inputs, editable outputs and deliberate approval steps.
-- **Evidence-led development:** capability claims tied to dated tests, measurements and documented limits.
+Soteria is the cybersecurity system within Soteria Line, with Phylax as its assessment component and OSINT & Security Frameworks as the supporting research plugin. The emphasis is bounded evidence collection, passive research and traceable assessment scope.
 
-[Supporting engineering tools](projects/engineering-tools.md) covers Talos and reusable development workflows.
+**Status:** Documented on-demand assessment scope; broader monitoring and remediation require separate evidence.
 
-## About this portfolio
+## Creative systems
 
-The project pages present product scope, selected architecture and dated engineering evidence. **Implementation source code stays private.** Published descriptions distinguish implemented workflows, active development and research.
+### [Aetheria Studio — structured website creation](projects/aetheria-studio.md)
 
-*Presentation updated 17 November 2026. Engineering evidence retains the dates and scope stated on each project page.*
+Clone, Composer and Wizard share template contracts, while generation and knowledge-processing services have explicit responsibilities. The case study explains how reviewable outputs and visible service availability shape the workflow.
+
+<a href="projects/aetheria-studio.md"><img src="assets/previews/aetheria-wizard.png" width="820" alt="Aetheria Studio Wizard showing a synthetic website brief and purpose selection."></a>
+
+*Static Wizard preview with synthetic input; generation and saving were not exercised in this capture.*
+
+### [Master / RACK — inspectable audio processing](projects/master-rack.md)
+
+An editable mastering chain with visible loudness targets and output controls. The engineering focus is predictable DSP behavior and a clear boundary around optional assistance.
+
+<a href="projects/master-rack.md"><img src="assets/screenshots/rack-mastering.png" width="820" alt="RACK application capture showing the editable mastering chain, loudness target and output controls."></a>
+
+*Application capture supplied on 2 October 2026. [Processing decisions and scoped evidence](projects/master-rack.md).*
+
+## Messaging prototypes
+
+- **[Snapp](projects/snapp.md):** an iOS messaging prototype exploring connection persistence, visible delivery state and interruption recovery. A dated historical verification report is distinguished from current runtime evidence.
+- **[YEP](projects/yep.md):** a multi-account messaging prototype. Account isolation, queue ownership and controlled recovery are design goals; verified capacity and current device readiness remain open.
+
+## How I work
+
+I define the problem and acceptance criteria, prioritize reliability and integration gaps, and coordinate AI-assisted development. Public technical claims are tied to a specific record or clearly identified as design goals. [Engineering approach, contribution scope and verification](ENGINEERING.md).
+
+The portfolio spans **Matheria** for work and operations, **Aetheria** for creative systems, and **Soteria Line** for cybersecurity. Messaging prototypes are listed separately. [Project and component index](REPOSITORIES.md).
+
+**Application source code stays private.** These pages share selected interface views, architecture and scoped engineering evidence.
+
+*Presentation updated 18 November 2026. Verification records retain their original dates and scope.*

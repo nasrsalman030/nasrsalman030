@@ -2,9 +2,15 @@
 
 **Cybersecurity assessment, public-source research and security evidence.**
 
-[Portfolio](../README.md) · [Project index](../REPOSITORIES.md) · [Engineering overview](../ENGINEERING.md)
+[Portfolio](../README.md) · [Role and engineering approach](../ENGINEERING.md) · [Project index](../REPOSITORIES.md)
 
 Soteria Line is the cybersecurity family in this portfolio. Its structure separates the cybersecurity system, its assessment component and the research plugin that supports it.
+
+## Problem and design focus
+
+A security conclusion is useful only when its scope and supporting observations are clear. Public-source research, local configuration evidence and framework mappings answer different questions. Soteria's documented approach keeps those activities identifiable so an assessment can be reviewed against the evidence actually collected.
+
+The central design concern is traceability: what was observed, where it came from and which conclusions the available scope can support. Broader coverage requires additional collection and verification.
 
 ## Soteria
 
@@ -18,14 +24,14 @@ Soteria Line is the cybersecurity family in this portfolio. Its structure separa
 
 **OSINT & Security Frameworks** remains the separately named **OSINT plugin**, used by Phylax for research and assessments. It retains its own identity within the Soteria structure.
 
-## Documented scope
+## Documented scope and decisions
 
-| Area | Focus |
-| --- | --- |
-| Assessment workflows | On-demand security assessment. |
-| Passive OSINT | Research using public organizational information. |
-| Framework mapping | Relating security findings and evidence to framework controls. |
-| Local evidence | Bounded collection and review of authorized evidence. |
+- **On-demand assessment** gives each review a defined scope and collection boundary.
+- **Passive OSINT** uses public organizational information as a research input.
+- **Framework mapping** relates observations and findings to relevant controls while preserving the underlying evidence.
+- **Bounded local collection** supports review of authorized device or configuration evidence.
+
+The **13 November 2026 public structure record** documents these responsibilities and the system/component/plugin distinction. It is a scope record, not a build or runtime verification receipt.
 
 ## Current boundaries
 
@@ -33,4 +39,4 @@ This page presents the documented structure and assessment scope. It does not es
 
 **Implementation source code remains private.**
 
-*Public overview updated 13 November 2026.*
+*Presentation updated 18 November 2026; documented scope retains its 13 November record date.*
