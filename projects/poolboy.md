@@ -6,13 +6,21 @@ PoolBoy is a Bitcoin-mining monitoring and economics dashboard. It connects oper
 
 [Portfolio](../README.md) · [Trading research: 2DEXY Full-Stack](2dexy-fullstack.md)
 
-## Interface preview
+## Interface views
 
-![PoolBoy mining-performance panel with synthetic fixture data and withheld rewards when coverage is incomplete](../assets/previews/poolboy-mining-performance.png)
+### Fleet overview
 
-*Static preview rendered on 17 November 2026 from the project's private interface components and synthetic test data. This document-rendered view does not exercise browser interactions, data collection, account access or database behavior. It is not a live dashboard capture.*
+![PoolBoy fleet workspace with mining metrics and individual miner states using synthetic data](../assets/previews/poolboy-fleet.png)
 
-The panel separates recorded rewards from hashrate and makes missing coverage visible. The illustrated reward total is withheld because the fixture does not establish the required provider coverage.
+The fleet view brings hashrate, online count, nominal power and efficiency together with individual miner states. The synthetic example includes healthy, degraded and offline machines so the operational differences are visible.
+
+### Reliability and history
+
+![PoolBoy reliability workspace with daily fleet hashrate and a worker evidence table using synthetic data](../assets/previews/poolboy-reliability.png)
+
+The reliability view connects daily fleet hashrate with worker evidence. Missing samples remain gaps, and offline days are marked separately from hashrate values.
+
+*Both views were rendered on 17 November 2026 from the project's private interface components with synthetic demonstration data. These are static document previews. Browser interactions, data collection, account access and database behavior were not exercised; the images are not live operational captures.*
 
 ## Reporting architecture
 
@@ -36,7 +44,7 @@ Missing coverage remains visible. A pool credit, a wallet receipt and a verified
 
 The **2 October 2026 source-publication record** reports a passing typecheck and **3,162 tests passing**. Five listener-dependent tests failed or timed out; the record identifies sandbox listener errors among those failures. Database integration tests, a production build and live runtime checks were outside that publication run.
 
-The public overview contains no real account identifiers, balances, invoices or operational records. Any values in the interface preview are synthetic fixture data. Implementation code and the preview-generation tooling remain private.
+The public overview contains no real account identifiers, balances, invoices or operational records. Any values in the interface views are synthetic demonstration data. Implementation code and the preview-generation tooling remain private.
 
 ## Development status
 

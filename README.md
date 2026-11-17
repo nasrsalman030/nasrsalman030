@@ -24,9 +24,9 @@ I develop software for professional workflows, creative production and cybersecu
 
 ### [PoolBoy](projects/poolboy.md)
 
-<a href="projects/poolboy.md"><img src="assets/previews/poolboy-mining-performance.png" width="760" alt="PoolBoy mining-performance panel rendered from its private application components with synthetic fixture data and visible coverage limits."></a>
+<a href="projects/poolboy.md"><img src="assets/previews/poolboy-fleet.png" width="820" alt="PoolBoy fleet workspace showing mining metrics and individual miner states, rendered from private components with synthetic data."></a>
 
-*Static component preview with synthetic fixture data and visible coverage limits. [Workflow and engineering evidence](projects/poolboy.md).*
+*Fleet monitoring with individual miner states. Static preview with synthetic data. [Reliability view, workflow and engineering evidence](projects/poolboy.md).*
 
 ### [Aetheria Studio](projects/aetheria-studio.md)
 
